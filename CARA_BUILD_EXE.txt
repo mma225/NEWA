@@ -1,0 +1,28 @@
+PAKET LENGKAP NUSAREBUILT
+
+PENTING: ZIP INI SUDAH BERISI main.py DAN requirements.txt.
+
+UPLOAD KE GITHUB:
+1. Ekstrak ZIP ini di komputer.
+2. Buka repository GitHub kamu.
+3. Upload SEMUA ISI folder ini ke root repository, bukan folder induknya.
+   Pastikan file main.py terlihat di halaman utama repository.
+4. Pastikan folder tersembunyi .github ikut ter-upload:
+   .github/workflows/build-windows.yml
+   Jika upload lewat browser tidak mengikutkan folder tersembunyi, buat file
+   tersebut langsung di GitHub dengan jalur yang sama, lalu salin workflow.
+5. Commit changes.
+6. Buka Actions > Build NusaRebuilt Windows EXE > Run workflow.
+7. Jika sukses, unduh artifact NusaRebuilt-Windows11-EXE dan ekstrak EXE.
+
+SUSUNAN YANG BENAR DI ROOT REPOSITORY:
+main.py
+requirements.txt
+README.md
+run_windows.bat
+.github/
+  workflows/
+    build-windows.yml
+
+Aplikasi ini prototipe independen. Belum merupakan clone penuh Nusa dan beberapa
+integrasi HUD Windows masih berupa opsi tampilan.
